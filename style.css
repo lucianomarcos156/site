@@ -1,21 +1,31 @@
 @charset "UTF-8";
-body {
-    background-color: rgb(145, 112, 76);
+* {
+    color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
 }
 h1 {
     background-color: rgb(88, 59, 27);
     text-align: center;
     padding: 10px;
-    width: 100%;
 }
-h2 {
-    text-align: left;
-}
-* {
-    color: rgb(255, 255, 255);
+.perfil-imagem {
+    float: right;
+    border-radius: 50%;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 .perfil {
     display: flex;
     align-items: center;
-    }
+    background-color: rgb(145, 112, 76);
+}
+p {
+    box-shadow: black 0.5em 0.5em 0.3em;
+    border-radius: 1em;
+    border: solid thick white;
+}
