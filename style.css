@@ -12,20 +12,27 @@ h1 {
     padding: 10px;
 }
 .perfil-imagem {
+    
     float: right;
-    border-radius: 50%;
-    width: 250px;
-    height: 100px;
+    
+    width: 500px;
+    height: 500px;
     margin: 10px;
     padding: 10px;
 }
 .perfil {
+    background-image: url(imagens/imagem-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     align-items: center;
-    background-color: rgb(145, 112, 76);
 }
 p {
     box-shadow: black 0.5em 0.5em 0.3em;
     border-radius: 1em;
     border: solid thick white;
+}
+.serviços-peim {
+    border-radius: 50%;
 }
