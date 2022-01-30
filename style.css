@@ -1,13 +1,10 @@
 @charset "UTF-8";
 * {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
 .perfil {
-    background-image: url(imagens/imagem-fundo.jpeg);
+    background-image: url(imagens/imagem-fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,22 +15,23 @@
     height: 500px;
 }
 .perfil-imagem { 
-    width: 500px;
+    width: 374px;
     height: 500px;
     margin: 0px;
     padding: 0px;
     display: flex;
 }
 .perfil-texto {
-    width: 500px;
-    border-radius: 20% 0;
-    padding: 50px 40px;
-    justify-content: left;
-    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    color: white;
     font-style: italic;
-    font-weight: bold;
-    
-    
+    font-size: 20px; 
+    text-align: justify;   
+}
+p {
+    margin: 0px;
 }
 h1 {
     background-color: rgb(88, 59, 27);
