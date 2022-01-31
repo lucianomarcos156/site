@@ -3,27 +3,18 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+header {
+    background-image: linear-gradient(to right, rgb(185, 141, 121), rgb(147, 112, 96),rgb(84, 64, 55));
+}
 .perfil {
-    background-image: url(imagens/imagem-fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
-    margin: 100px 100px 100px 100px;
-    width: 1000px;
-    height: 500px;
+    height: 400;
 }
-.perfil-imagem { 
-    width: 374px;
-    height: 500px;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
+.perfil-imagem {
+    
 }
 .perfil-texto {
-    justify-content: center;
-    align-items: center;
     padding: 35px;
     color: white;
     font-style: italic;
@@ -37,6 +28,10 @@ h1 {
     background-color: rgb(88, 59, 27);
     text-align: center;
     padding: 10px;
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
 }
 .serviços-peim {
     border-radius: 50%;
