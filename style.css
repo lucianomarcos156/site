@@ -1,21 +1,35 @@
 @charset "UTF-8";
 * {
-    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    background-color: #4d341b9f;
 }
 header {
-    background-image: linear-gradient(to right, rgb(185, 141, 121), rgb(147, 112, 96),rgb(84, 64, 55));
+    padding: 15px;
+    margin-top: 30px;
+}
+nav {
+    background: linear-gradient(to right, rgb(185, 141, 121), rgb(147, 112, 96),rgb(84, 64, 55));
+    padding: 0px;
+    margin: 0px;
+}
+main {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
 }
 a {
     color: black;
     text-decoration: none;
 }
-a:hover {
+.perfil-texto-link:hover {
     font-weight: bold;
     text-decoration: underline;
 }
-a::after {
+.perfil-texto-link::after {
     content: ' [link]';
     font-weight: normal;
 }
@@ -29,13 +43,19 @@ a::after {
     color: white;
     font-style: italic;
     font-size: 16px; 
-    text-align: justify;   
+    text-align: justify;  
 }
-h1 {
+/*h1 {
     background-color: rgb(88, 59, 27);
     text-align: center;
     padding: 10px;
 }
 .serviços-peim {
     border-radius: 50%;
+}*/
+footer {
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
 }
