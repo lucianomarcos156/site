@@ -23,10 +23,11 @@ header {
 .menu-principal li a {
     display: block;
     padding: 10px;
+    margin-left: 25px;
     background: rgba(48, 19, 19, 0.349);
     color: white;
     text-decoration: none;
-    margin-left: 25px;
+    
 }
 .perfil {
     background: rgba(48, 19, 19, 0.349);
