@@ -5,12 +5,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    background-color: #4d341b9f;
+    background-color: #d6ccc8da;
     margin: 0px;
-}
-a {
-    color: white;
-    text-decoration: none;
 }
 header {
     display: flex;
@@ -18,23 +14,22 @@ header {
     margin-top: 0px;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 .menu-principal {
     display: flex;
     list-style: none;
 }
-.menu-principal li {
-    margin-left: 25px;
-}
 .menu-principal li a {
     display: block;
     padding: 10px;
     background: rgba(48, 19, 19, 0.349);
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
 }
 .perfil {
-    background: linear-gradient(to right, rgb(185, 141, 121), rgb(147, 112, 96),rgb(84, 64, 55));
+    background: rgba(48, 19, 19, 0.349);
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -44,15 +39,6 @@ main {
     background-color: white;
     padding: 15px;
     margin: 15px;
-}
-
-.perfil-texto-link:hover {
-    font-weight: bold;
-    text-decoration: underline;
-}
-.perfil-texto-link::after {
-    content: ' [link]';
-    font-weight: normal;
 }
 .perfil-texto {
     padding: 35px;
