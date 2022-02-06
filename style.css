@@ -6,7 +6,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0px;
+    padding: 0px;
     background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 header {
     display: flex;
@@ -28,23 +31,29 @@ header {
     text-decoration: none;   
 }
 .perfil {
-    background: rgba(48, 19, 19, 0.349);
+    background-image: url(imagens/imagem-fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0px;
     margin: auto;
     display: flex;
     align-items: center;
 }
-.perfil > img {
-    max-width: 100%;
-}
-.perfil p {
-    padding: 100px;
+.perfil > aside {
+    padding: 120px;
     margin: 0px;
     color: black;
     font-style: italic;
     text-align: justify;  
 }
-h1 {
+.perfil > img {
+    border-radius: 50%;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.serviços > h1 {
     background-color: rgba(48, 19, 19, 0.349);
     color: white;
     font-size: 20px;
@@ -52,12 +61,15 @@ h1 {
     padding: 10px;
 }
 .serviços > div > img {
+    border-radius: 1px solid black;
     max-width: 100%;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+
 }
-footer {
+/*footer {
     color: black;
     text-align: center;
     padding: 1px;
     margin: 0px;
-}
+}*/
