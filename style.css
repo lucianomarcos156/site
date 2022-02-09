@@ -7,7 +7,7 @@ body {
     background-color: white;
     max-width: 1020px;
     margin: 0 auto;
-
+    height: 927px;
 }
 header {
     display: flex;
@@ -16,7 +16,7 @@ header {
     margin-bottom: 10px;
     justify-content: space-between;
     align-items: center;  
-    background-color: rgba(48, 19, 19, 0.349);
+    background-color: rgba(48, 19, 19, 0.582);
 }
 .menu-principal {
     display: flex;
@@ -26,12 +26,12 @@ header {
     padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    background: rgba(48, 19, 19, 0.349);
+    background-color: rgba(48, 19, 19, 0.582);
     color: white;
     text-decoration: none;   
 }
 main {
-    height: 740px;
+    height: 770px;
 }
 .perfil {
     background-image: url(imagens/imagem-fundo.png);
@@ -39,7 +39,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px;
-    margin: auto;
     display: flex;
     align-items: center;
     height: 320px;
@@ -61,21 +60,21 @@ main {
     margin-top: 50px;
 }
 .serviços {
-    background-color: rgba(48, 19, 19, 0.349);
+    background-color: rgba(48, 19, 19, 0.582);
     color: white;
-    height: 400px;
+    height: 440px;
 }
 h1 {
     color: white;
     font-size: 18px;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     margin-bottom: 0px;
     margin-top: 10px;
 }
 .serviços-disponíveis {
     display: flex;
-    height: 360px;
+    height: 388px;
     justify-content: center; 
     flex-wrap: wrap; 
 } 
@@ -90,23 +89,28 @@ h1 {
     margin-left: 15px; 
     margin-right: 15px;   
 }
-p {
+#furo-humanizado p, #cuidados-bebe p, #peim p {
     text-align: justify;
     width: 300px;
     margin-left: 15px; 
     margin-right: 15px; 
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 15px;
 }
 h2 {
     font-size: 16px;
     margin-left: 15px;
 }
-
-
-/*footer {
-    color: black;
+footer {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: rgba(48, 19, 19, 0.582);
+}
+footer p {
+    color: white;
     text-align: center;
-    padding: 1px;
+    padding: 20px;
     margin: 0px;
-}*/
+    font-size: 15px;
+}
