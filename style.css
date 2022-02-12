@@ -3,24 +3,22 @@
     box-sizing: border-box;   
 }
 a {
-    color: rgba(10, 46, 204, 0.932);
+    color: rgba(0, 0, 255, 0.61);
 }
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F7F7F7;
     max-width: 1020px;
     margin: 0 auto;
     height: 927px;
-    color: white;     
+    color: #333333;     
 }
 header {
     display: flex;
     padding: 10px;
     margin-top: 0px;
-    margin-bottom: 10px;
     justify-content: space-between;
     align-items: center;  
-    background-color: rgba(48, 19, 19, 0.582);
 }
 .menu-principal {
     display: flex;
@@ -46,12 +44,13 @@ main {
     display: flex;
     align-items: center;
     height: 320px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
 }
 .perfil aside {
     text-indent: 60px;
     margin: 60px;
-    color: black;
     font-style: italic;
+    font-size: 17px;
     text-align: justify;  
 }
 .perfil img {
@@ -61,36 +60,35 @@ main {
     margin-left: 15px;
     margin-top: 45px;
 }
-.serviços {
-    background-color: rgba(48, 19, 19, 0.582); 
-    height: 400px;
-}
 h3 {
     text-align: center;
-    padding: 25px;
+    padding: 15px;
     margin-bottom: 0px;
-    margin-top: 10px;  
+    margin-top: 0px;  
 }
 .serviços-disponíveis {
     display: flex;
     height: 300px;
-    justify-content: space-evenly;
-    flex-wrap: wrap; 
+    justify-content: space-between;
+    flex-wrap: wrap;    
 } 
-#furo-humanizado #cuidados-bebe #peim {
-    height: 300px;
-    width: 340px; 
-    flex: 1 1 200px;  
+div {
+    background-color: #e4ddd96b;
+    width: 300px; 
+    height: 325px;
 }
-#furo-humanizado img, #cuidados-bebe img, #peim img {
+.furo-humanizado img, .cuidados-bebe img, .peim img {
     width: 300px;
     height: 150px;   
 }
-#furo-humanizado p, #cuidados-bebe p, #peim p {
+.furo-humanizado p, .cuidados-bebe p, .peim p {
     text-align: justify;
-    width: 300px;
+    width: 270px;
+    height: 180px; 
     margin-top: 5px;
-    margin-bottom: 0px;   
+    margin-bottom: 0px; 
+    margin-left: 15px; 
+    margin-right: -10px;
 }
 footer {
     margin-top: 10px;
