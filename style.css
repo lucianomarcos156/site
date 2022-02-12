@@ -1,24 +1,25 @@
 @charset "UTF-8";
 * {
-    box-sizing: border-box;   
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif;
+    color: #5B5C65;  
 }
 a {
     color: rgba(0, 0, 255, 0.61);
 }
 body {
-    font-family: 'Open Sans', sans-serif;
     background-color: #F7F7F7;
     max-width: 1020px;
     margin: 0 auto;
-    height: 927px;
-    color: #333333;     
+    height: 927px;     
 }
 header {
     display: flex;
     padding: 10px;
-    margin-top: 0px;
-    justify-content: space-between;
-    align-items: center;  
+    justify-content: space-between; 
 }
 .menu-principal {
     display: flex;
@@ -42,44 +43,49 @@ main {
     background-size: cover;
     padding: 0px;
     display: flex;
-    align-items: center;
     height: 320px;
-    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
-}
-.perfil aside {
-    text-indent: 60px;
-    margin: 60px;
-    font-style: italic;
-    font-size: 17px;
-    text-align: justify;  
+    margin-bottom: 20px;  
 }
 .perfil img {
     border-radius: 50%;
     border: 5px solid white;
     height: 250px;
-    margin-left: 15px;
-    margin-top: 45px;
+    width: 250px;
 }
-h3 {
+figure {
+    margin-inline-end: 0px;
+}
+.perfil aside {
+    text-indent: 60px;
+    font-style: italic;
+    font-size: 17px;
+    text-align: justify;
+    align-items: center;   
+}
+h2 {
     text-align: center;
     padding: 15px;
     margin-bottom: 0px;
-    margin-top: 0px;  
+    margin-top: 0px;     
 }
 .serviços-disponíveis {
     display: flex;
-    height: 300px;
+    height: 325px;
     justify-content: space-between;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    margin-top: 20px;    
 } 
 div {
-    background-color: #e4ddd96b;
     width: 300px; 
     height: 325px;
+    background-color: #E4DDD9;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.466);
 }
 .furo-humanizado img, .cuidados-bebe img, .peim img {
     width: 300px;
-    height: 150px;   
+    height: 150px; 
+    border-radius: 8px 8px 0px 0px;  
 }
 .furo-humanizado p, .cuidados-bebe p, .peim p {
     text-align: justify;
@@ -89,6 +95,7 @@ div {
     margin-bottom: 0px; 
     margin-left: 15px; 
     margin-right: -10px;
+    border-radius: 0px 0px 1px 1px;  
 }
 footer {
     margin-top: 10px;
