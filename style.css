@@ -19,7 +19,8 @@ body {
 header {
     display: flex;
     padding: 10px;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center; 
 }
 .menu-principal {
     display: flex;
@@ -29,38 +30,35 @@ header {
     padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    background-color: rgba(48, 19, 19, 0.582);
-    color: white; 
     text-decoration: none;   
 }
 main {
     height: 770px;
 }
 .perfil {
-    background-image: url(imagens/imagem-fundo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to left,rgba(0, 0, 255, 0.651), #dd51b3c2);
     padding: 0px;
     display: flex;
     height: 320px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
+    align-items: center; 
 }
 .perfil img {
     border-radius: 50%;
     border: 5px solid white;
-    height: 250px;
-    width: 250px;
-}
-figure {
-    margin-inline-end: 0px;
+    height: 230px;
+    width: 230px;
+    margin-left: 30px;
 }
 .perfil aside {
     text-indent: 60px;
     font-style: italic;
     font-size: 17px;
     text-align: justify;
-    align-items: center;   
+    color: white; 
+    margin-left: 100px;
+    margin-right: 100px; 
+    background-color: rgba(202, 36, 127, 0.226); 
 }
 h2 {
     text-align: center;
@@ -75,10 +73,10 @@ h2 {
     flex-wrap: wrap;
     margin-top: 20px;    
 } 
-div {
+.furo-humanizado, .cuidados-bebe, .peim {
     width: 300px; 
     height: 325px;
-    background-color: #E4DDD9;
+    background-color: #e4ddd933;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.466);
 }
@@ -100,7 +98,6 @@ div {
 footer {
     margin-top: 10px;
     margin-bottom: 0px;
-    background-color: rgba(48, 19, 19, 0.582);
 }
 footer p {   
     text-align: center;
