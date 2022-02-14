@@ -12,7 +12,7 @@ a {
 }
 body {
     background-color: #F7F7F7;
-    max-width: 1020px;
+    max-width: 1070px;
     margin: 0 auto;
     height: 927px;     
 }
@@ -20,45 +20,54 @@ header {
     display: flex;
     padding: 10px;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    background-image: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
 }
 .menu-principal {
     display: flex;
     list-style: none;
 }
 .menu-principal li a {
-    padding: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-    text-decoration: none;   
+    padding: 20px;
+    text-decoration: none;
+    color: white;
 }
 main {
-    height: 770px;
+    height: 750px;
 }
 .perfil {
-    background-image: linear-gradient(to left,rgba(0, 0, 255, 0.651), #dd51b3c2);
+    background-image: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
     padding: 0px;
     display: flex;
     height: 320px;
-    margin-bottom: 20px; 
-    align-items: center; 
+    margin-bottom: 20px;
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite; 
 }
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}   
 .perfil img {
     border-radius: 50%;
     border: 5px solid white;
-    height: 230px;
-    width: 230px;
     margin-left: 30px;
+    margin-top: 28px;
 }
 .perfil aside {
     text-indent: 60px;
     font-style: italic;
     font-size: 17px;
     text-align: justify;
-    color: white; 
-    margin-left: 100px;
-    margin-right: 100px; 
-    background-color: rgba(202, 36, 127, 0.226); 
+    color: white;
+    padding: 70px;  
 }
 h2 {
     text-align: center;
