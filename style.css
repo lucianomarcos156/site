@@ -11,7 +11,6 @@ a {
     color: rgba(0, 0, 255, 0.61);
 }
 body {
-    background-color: #F7F7F7;
     max-width: 1070px;
     min-width: 320px;
     margin: 0 auto;
@@ -21,7 +20,7 @@ header {
     display: flex;
     padding: 10px;
     align-items: center;
-    background-image: linear-gradient(45deg, #084177, #687466);
+    background: linear-gradient(45deg, #055a79, #1eb491) 
 }
 .menu-principal {
     display: flex;
@@ -40,25 +39,13 @@ main {
     height: 750px;
 }
 .perfil {
-    background-image: linear-gradient(45deg, #084177, #687466);
-    padding: 0px;
+    background: linear-gradient(45deg, #055a79, #23d5ab) no-repeat;
+    background-size: 300% 300%;
     display: flex;
+    padding: 0px;
     height: 320px;
     margin-bottom: 10px;
-    background-size: 300% 300%;
-    animation: color 15s ease infinite; 
-}
-@keyframes color {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}   
+} 
 .perfil img {
     border-radius: 50%;
     border: 5px solid white;
