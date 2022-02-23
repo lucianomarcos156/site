@@ -1,8 +1,8 @@
 @charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     box-sizing: border-box; 
     font-family: 'Open Sans', sans-serif;
     color: #5B5C65;  
@@ -15,26 +15,32 @@ body {
     padding-left: 10px; 
     padding-right: 10px;    
 }
-header {
-    
+header { 
     padding: 10px;
     align-items: center;
-    background: linear-gradient(45deg, #055a79, #1eb491) 
+    background: linear-gradient(45deg, #055a79, #1eb491);  
 }
 .menu {
     display: flex;
+    justify-content: space-between; 
+    align-content: center;   
+}
+.menu a, li {
+    text-decoration: none;
     list-style: none;
-    justify-content: space-between;
+    color: white;
+   
+}
+ul.contatos {
+    display: flex;  
+}
+.contatos p {
+    color: white;
 }
 .contatos img {
-    width: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.menu li a {
-    text-decoration: none;
-    color: white;
-    align-content: center;
+    width: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 main {
     height: 750px;
@@ -47,7 +53,7 @@ main {
     height: 320px;
     margin-bottom: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 } 
 .perfil img {
     border-radius: 50%;
