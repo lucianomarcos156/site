@@ -17,42 +17,31 @@ body {
 }
 header { 
     padding: 10px;
-    align-items: center;
     background: linear-gradient(45deg, #055a79, #1eb491);     
 }
 .menu {
     display: flex;
-    justify-content: space-between; 
-    align-content: center;      
+    justify-content: space-between;     
 }
-.menu li, a {
+.menu li, a, span, img {
     text-decoration: none;
     list-style: none;
-    color: white;
-}
-.agenda {
-    margin-left: 50px;
-    padding: 5px;
-    border: 2px solid white;
-    background-color: #10888C;   
+    color: white;   
 }
 .contatos {
     display: flex;
-    padding: 5px;     
-}
-.contatos p {
-    color: white;
+    padding: 5px;         
 }
 .contatos img {
-    width: 25px;   
+    width: 30px;
+    height: 30px; 
+    justify-content: center;
+    align-items: center; 
 }
-.canais-contato {
-    width: 35px;
-    height: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 10px;
-    
+.agenda {
+    padding: 5px;
+    border: 2px solid white;
+    background-color: #10888C;   
 }
 main {
     height: 750px;
